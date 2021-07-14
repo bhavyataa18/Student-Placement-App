@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer"
-    tools:openDrawer="start"
+    tools:openDrawer="end"
     tools:context=".AdminHome">
 
     <ScrollView
@@ -17,14 +17,15 @@
         android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/toolbar1"
-            android:layout_width="410dp"
-            android:layout_height="66dp"
-            android:background="@color/white"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:title="welcome to admin pannel"
+            android:background="#41A9FB"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+            app:title="Welcome to Admin Page"
+            app:titleTextColor="#41A9FB"
             app:titleMarginStart="10dp"
-            app:titleTextColor="#ffff"
+            android:layout_marginBottom="5dp"
             tools:ignore="MissingConstraints">
 
         </androidx.appcompat.widget.Toolbar>
@@ -37,7 +38,7 @@
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="DashBoard"
-            android:textColor="@color/white"
+            android:textColor="#41A9FB"
             android:textSize="50sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.49"
@@ -96,7 +97,7 @@
                         android:layout_marginBottom="13dp"
                         android:gravity="center"
                         android:text="View Student Details"
-                        android:textColor="@color/white" />
+                        android:textColor="#000000" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -137,7 +138,7 @@
                         android:layout_marginBottom="0dp"
                         android:gravity="center"
                         android:text="View Company Details"
-                        android:textColor="@color/white" />
+                        android:textColor="#000000" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -191,7 +192,7 @@
                         android:layout_marginBottom="21dp"
                         android:gravity="center"
                         android:text="Download Resume"
-                        android:textColor="@color/white" />
+                        android:textColor="#000000" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -232,7 +233,7 @@
                         android:layout_marginBottom="0dp"
                         android:gravity="center"
                         android:text="View Placement Reports"
-                        android:textColor="@color/white" />
+                        android:textColor="#000000" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -251,9 +252,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:background="@color/white"
+            android:background="#41A9FB"
             app:title="Welcome to Admin Panel"
-            app:titleTextColor="@color/black" />
+            app:titleTextColor="@color/white" />
 
     </RelativeLayout>
 

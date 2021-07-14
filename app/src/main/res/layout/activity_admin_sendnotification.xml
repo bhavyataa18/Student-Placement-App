@@ -13,10 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="32dp"
-        android:background="@drawable/heading_design"
         android:gravity="center"
         android:text="Send Notification"
-        android:textColor="@color/black"
+        android:textColor="#41A9FB"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -25,62 +24,64 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="152dp"
-        android:layout_height="54dp"
+        android:layout_width="134dp"
+        android:layout_height="72dp"
         android:layout_below="@+id/textView7"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:text=" Subject :"
-        android:textColor="@color/white"
-        android:textSize="35dp"
+        android:gravity="center_vertical"
+        android:text="Subject :"
+        android:textColor="#41A9FB"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="258dp"
-        android:layout_height="58dp"
-        android:ems="10"
-        android:hint=" notifcication subject"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.276" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="413dp"
-        android:layout_height="366dp"
-        android:background="@drawable/box"
+        android:layout_width="361dp"
+        android:layout_height="357dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint=" Enter Detailed Description about Notification....."
+        android:background="@drawable/box"
+        android:hint="  Enter Description about Notification....."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.233" />
 
     <Button
         android:id="@+id/send"
         android:layout_width="147dp"
         android:layout_height="50dp"
-        android:text="S E N D"
-        android:textSize="25dp"
         android:background="@drawable/rounded_button"
-        android:textColor="@color/black"
+        android:text="S E N D"
+        android:textColor="@color/white"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="242dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="Notification Topic"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="WELCOME"
-        android:textColor="@color/white"
+        android:textColor="#41A9FB"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +34,7 @@
         android:gravity="center"
         android:text="TO"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="#41A9FB"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -48,7 +49,7 @@
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="CPI  INSTITUTE"
-        android:textColor="@color/white"
+        android:textColor="#41A9FB"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,16 +59,15 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="410dp"
-        android:layout_height="449dp"
+        android:layout_width="411dp"
+        android:layout_height="388dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/cpi" />
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/cpilogo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
